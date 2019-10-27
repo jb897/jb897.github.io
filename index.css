@@ -1,0 +1,47 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("mor.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 	font-family: 'PT Sans', sans-serif;
+}
+
+#main{
+	margin-top: 7%;
+	background-color: transparent !important;
+	text-align: center;
+	border-width: 3px;
+	border-color: red;
+	margin-right: 15%;
+	margin-left: 0%;
+	width: 50%;
+	color: black;
+}
+
+#links{
+	display: inline-block;
+	height: 10em;
+	width: 20em;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	height: 2em;
+	width: 2em;
+}
+
+.resume-container{
+	display: block;
+}
+
+.square-link{
+	background-color: white;
+	padding: 1em;
+}
