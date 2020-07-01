@@ -8,30 +8,61 @@
 	<link rel="stylesheet" type="text/css" href="index.css"/>
 </head>
 <body>
-	<div class=container id=main>
-		<p>
-			Hi, my name is: 
-		</p>
-		<h1 class=display-3>
-			Josh Bowman
-		</h1>
-		<hr class="my-3">
-		<p class=lead>
-			I'm a student at Tufts University. I double major in Computer Science and Cognitive and Brain Sciences. I'll be graduating in May 2020.
-		</p>
-		<div class=container id=links>
-			<a class="square-link" target="_blank" href="resume.html">Resume</a>
-			<a class="social-icon" target="_blank" href="http://github.com/jb897">
-                  <img src="img/github.svg" alt="GitHub">
-            </a>
+	<div class="container-fluid" id="main">
+		<div class="row">
+			<div class="col-3 no-float" id="left-sidebar">
+				<div class="container" id="left-sidebar-info">
+					<h5>
+						Josh
+					</h5>
+					<h5>
+						Bowman
+					</h5>
+					
+					<br>
+					
+					<p><a href="google.com" id="home">Home</a></p>
+					<p><a target="_blank" href="resume.html">Resume</a></p>
+					
+					<br>
 
-            <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/joshuaabowman/">
-                  <img src="img/linkedin.png" alt="LinkedIn">
-            </a>
+					<p><a href="#">Books I Like</a></p>
+					<p><a href="#">Photography</a></p>
+					<p><a href="#">Things I Use</a></p>
+					
+					<br>
 
-            <a class="social-icon" href="mailto:jbowma14@gmail.com">
-                  <img src="img/email.jpg" alt="Email">
-            </a>
+					<div class="links">
+						<div class="row">
+							<a class="col-1" target="_blank" href="http://github.com/jb897">
+								<div id="link-div">
+									<img src="img/github.svg" alt="Github">
+			                  	</div>
+			           		</a>
+					        <a class="col-1" target="_blank" href="https://www.linkedin.com/in/joshuaabowman/">
+					        	<div id="link-div">
+					            	<img src="img/linkedin.png" alt="LinkedIn">
+					            </div>
+					        </a>
+					        <a class="col-1" href="mailto:jbowma14@gmail.com">
+					        	<div id="link-div">
+					            	<img src="img/email.png" alt="Email">
+					            </div>
+					        </a>
+					        <a class="col-1" href="instagram.com/jb897_">
+					        	<div id="link-div">
+					            	<img src="img/instagram.png" alt="Instagram"">
+					            </div>
+					        </a>
+				       </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-8" id="center-content">
+					<div class="container" id="self"></div>
+					<hr>
+					<p>I'm a student at Tufts University. I double major in Computer Science and Cognitive and Brain Sciences. I'll be graduating in May 2020.</p>
+			</div>
 		</div>
 	</div>
 </body>
